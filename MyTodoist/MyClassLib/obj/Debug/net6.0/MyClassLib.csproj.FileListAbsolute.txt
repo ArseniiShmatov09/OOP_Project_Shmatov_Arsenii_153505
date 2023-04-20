@@ -1,0 +1,12 @@
+D:\OOP\MyTodoist\MyClassLib\bin\Debug\net6.0\MyClassLib.deps.json
+D:\OOP\MyTodoist\MyClassLib\bin\Debug\net6.0\MyClassLib.dll
+D:\OOP\MyTodoist\MyClassLib\bin\Debug\net6.0\MyClassLib.pdb
+D:\OOP\MyTodoist\MyClassLib\obj\Debug\net6.0\MyClassLib.csproj.AssemblyReference.cache
+D:\OOP\MyTodoist\MyClassLib\obj\Debug\net6.0\MyClassLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\MyTodoist\MyClassLib\obj\Debug\net6.0\MyClassLib.AssemblyInfoInputs.cache
+D:\OOP\MyTodoist\MyClassLib\obj\Debug\net6.0\MyClassLib.AssemblyInfo.cs
+D:\OOP\MyTodoist\MyClassLib\obj\Debug\net6.0\MyClassLib.csproj.CoreCompileInputs.cache
+D:\OOP\MyTodoist\MyClassLib\obj\Debug\net6.0\MyClassLib.dll
+D:\OOP\MyTodoist\MyClassLib\obj\Debug\net6.0\refint\MyClassLib.dll
+D:\OOP\MyTodoist\MyClassLib\obj\Debug\net6.0\MyClassLib.pdb
+D:\OOP\MyTodoist\MyClassLib\obj\Debug\net6.0\ref\MyClassLib.dll
