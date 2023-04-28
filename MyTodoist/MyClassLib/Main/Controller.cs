@@ -5,14 +5,27 @@ using MyClassLib.Editors;
 
 namespace MyClassLib.Main
 {
+    [Serializable]
+
     public class Controller : IFunctionalController
     {
-        private ProjectContainer container = new ProjectContainer();
+        public ProjectContainer container = new ProjectContainer();
         private Priority priority = new Priority();
         private Deadline deadline = new Deadline();
         private Notify notify = new Notify();
         private Sort sort = new Sort();
 
+        private Controller() { }
+        private static Controller? _instance;
+
+        public static Controller GetInstance()
+        {
+            if (_instance == null)
+            {
+                _instance = new Controller();
+            }
+            return _instance;
+        }
         public void Add(string name, string decription)
         {
             try
@@ -20,6 +33,7 @@ namespace MyClassLib.Main
                 if (container.Find(name) == null)
                 {
                     container.Add(name, decription);
+                  
                 }
 
                 else throw new Exception();
@@ -98,7 +112,7 @@ namespace MyClassLib.Main
 
         }
 
-        public void AddTask(string taskName, string taskDecription, string projectName = "Другие")
+        public void AddTask(string taskName, string taskDecription, string projectName = "Others")
         {
             try
             {
@@ -130,7 +144,7 @@ namespace MyClassLib.Main
             }
         }
 
-        public void RemoveTask(string taskName, string projectName = "Другие")
+        public void RemoveTask(string taskName, string projectName = "Others")
         {
             Models.Task? item = container.FindTask(taskName, projectName);
 
@@ -165,7 +179,7 @@ namespace MyClassLib.Main
             }
         }
 
-        public void ChangeTask(string taskName, string newName, string newDescription, string projectName = "Другие")
+        public void ChangeTask(string taskName, string newName, string newDescription, string projectName = "Others")
         {
             Models.Task? item = container.FindTask(taskName, projectName);
             try
@@ -202,7 +216,7 @@ namespace MyClassLib.Main
             }
         }
 
-        public void ShowTasks(string projectName = "Другие")
+        public void ShowTasks(string projectName = "Others")
         {
             try
             {
@@ -245,7 +259,7 @@ namespace MyClassLib.Main
             }
         }
 
-        public void SetPriority(string taskName, int taskPriority, string projectName = "Другие")
+        public void SetPriority(string taskName, int taskPriority, string projectName = "Others")
         {
             try
             {
@@ -291,7 +305,7 @@ namespace MyClassLib.Main
 
         }
 
-        public void SetDeadlineTime(string taskName, int year, int month, int day, int hours = 0, int minutes = 0, int seconds = 0, string projectName = "Другие")
+        public void SetDeadlineTime(string taskName, int year, int month, int day, int hours = 0, int minutes = 0, int seconds = 0, string projectName = "Others")
         {
             try
             {
@@ -338,7 +352,7 @@ namespace MyClassLib.Main
             }
         }
 
-        public void CompleteTask(string taskName, string projectName = "Другие")
+        public void CompleteTask(string taskName, string projectName = "Others")
         {
             Models.Task? item = container.FindTask(taskName, projectName);
 
@@ -372,7 +386,7 @@ namespace MyClassLib.Main
 
         }
 
-        public void ShowComletedTasks(string projectName = "Другие")
+        public void ShowComletedTasks(string projectName = "Others")
         {
             try
             {
@@ -416,7 +430,7 @@ namespace MyClassLib.Main
 
         }
 
-        public void GetNotify(string taskName, string projectName = "Другие")
+        public void GetNotify(string taskName, string projectName = "Others")
         {
             try
             {
@@ -448,7 +462,7 @@ namespace MyClassLib.Main
             }
         }
 
-        public void SortByName(string projectName = "Другие")
+        public void SortByName(string projectName = "Others")
         {
             try
             {
@@ -482,7 +496,7 @@ namespace MyClassLib.Main
 
         }
 
-        public void SortByPriority(string projectName = "Другие")
+        public void SortByPriority(string projectName = "Others")
         {
             try
             {
@@ -518,11 +532,3 @@ namespace MyClassLib.Main
     }
 
 }
-
-
-
-
-
-
-
-

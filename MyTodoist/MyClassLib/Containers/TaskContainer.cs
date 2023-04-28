@@ -5,8 +5,8 @@ namespace MyClassLib.Containers
 {
     public class TaskContainer : IFunctional<Models.Task>
     {
-        private List<Models.Task> Tasks = new List<Models.Task>();
-        private List<Models.Task> CompletedTasks = new List<Models.Task>();
+        public List<Models.Task> Tasks = new List<Models.Task>();
+        public List<Models.Task> CompletedTasks = new List<Models.Task>();
 
         public void Add(string name, string description)
         {

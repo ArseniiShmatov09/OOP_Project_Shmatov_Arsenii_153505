@@ -2,6 +2,7 @@
 
 namespace MyClassLib.Models
 {
+    [Serializable]
     public class Task
     {
         public string Name { get; set; }
@@ -20,6 +21,7 @@ namespace MyClassLib.Models
             IsCompleted = false;
 
         }
+        public Task(){ }
     }
      
 }

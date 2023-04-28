@@ -5,11 +5,12 @@ using MyClassLib.Models;
 
 namespace MyClassLib.Models
 {
+    [Serializable]
     public class Project
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        private TaskContainer TaskContainer = new TaskContainer();
+        public TaskContainer TaskContainer = new TaskContainer();
 
         public Project(string name, string description)
         {
@@ -17,6 +18,7 @@ namespace MyClassLib.Models
             Description = description;
 
         }
+        public Project(){ }
 
         public void AddTask(string name, string description)
         {
