@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTodoist", "MyTodoist\MyTo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClassLib", "MyClassLib\MyClassLib.csproj", "{D9079A03-EF30-482D-90D3-6712A774F163}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySerializer", "MySerializer\MySerializer.csproj", "{D7D33A37-8923-4C00-BEC0-5F3A159DDA2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D9079A03-EF30-482D-90D3-6712A774F163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9079A03-EF30-482D-90D3-6712A774F163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9079A03-EF30-482D-90D3-6712A774F163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D33A37-8923-4C00-BEC0-5F3A159DDA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D33A37-8923-4C00-BEC0-5F3A159DDA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D33A37-8923-4C00-BEC0-5F3A159DDA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D33A37-8923-4C00-BEC0-5F3A159DDA2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
