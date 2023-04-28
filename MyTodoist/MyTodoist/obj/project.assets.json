@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/MyClassLib.dll": {}
         }
+      },
+      "MySerializer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MySerializer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MySerializer.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../MyClassLib/MyClassLib.csproj",
       "msbuildProject": "../MyClassLib/MyClassLib.csproj"
+    },
+    "MySerializer/1.0.0": {
+      "type": "project",
+      "path": "../MySerializer/MySerializer.csproj",
+      "msbuildProject": "../MySerializer/MySerializer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MyClassLib >= 1.0.0"
+      "MyClassLib >= 1.0.0",
+      "MySerializer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,6 +77,9 @@
           "projectReferences": {
             "D:\\OOP\\MyTodoist\\MyClassLib\\MyClassLib.csproj": {
               "projectPath": "D:\\OOP\\MyTodoist\\MyClassLib\\MyClassLib.csproj"
+            },
+            "D:\\OOP\\MyTodoist\\MySerializer\\MySerializer.csproj": {
+              "projectPath": "D:\\OOP\\MyTodoist\\MySerializer\\MySerializer.csproj"
             }
           }
         }

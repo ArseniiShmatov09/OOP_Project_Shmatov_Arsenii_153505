@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "MyTodoist/1.0.0": {
         "dependencies": {
-          "MyClassLib": "1.0.0"
+          "MyClassLib": "1.0.0",
+          "MySerializer": "1.0.0"
         },
         "runtime": {
           "MyTodoist.dll": {}
@@ -17,6 +18,11 @@
       "MyClassLib/1.0.0": {
         "runtime": {
           "MyClassLib.dll": {}
+        }
+      },
+      "MySerializer/1.0.0": {
+        "runtime": {
+          "MySerializer.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "MyClassLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySerializer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
