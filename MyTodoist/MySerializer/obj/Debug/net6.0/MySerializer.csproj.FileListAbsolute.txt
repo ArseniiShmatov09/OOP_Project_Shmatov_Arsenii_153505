@@ -1,0 +1,12 @@
+D:\OOP\MyTodoist\MySerializer\bin\Debug\net6.0\MySerializer.deps.json
+D:\OOP\MyTodoist\MySerializer\bin\Debug\net6.0\MySerializer.dll
+D:\OOP\MyTodoist\MySerializer\bin\Debug\net6.0\MySerializer.pdb
+D:\OOP\MyTodoist\MySerializer\obj\Debug\net6.0\MySerializer.csproj.AssemblyReference.cache
+D:\OOP\MyTodoist\MySerializer\obj\Debug\net6.0\MySerializer.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\MyTodoist\MySerializer\obj\Debug\net6.0\MySerializer.AssemblyInfoInputs.cache
+D:\OOP\MyTodoist\MySerializer\obj\Debug\net6.0\MySerializer.AssemblyInfo.cs
+D:\OOP\MyTodoist\MySerializer\obj\Debug\net6.0\MySerializer.csproj.CoreCompileInputs.cache
+D:\OOP\MyTodoist\MySerializer\obj\Debug\net6.0\MySerializer.dll
+D:\OOP\MyTodoist\MySerializer\obj\Debug\net6.0\refint\MySerializer.dll
+D:\OOP\MyTodoist\MySerializer\obj\Debug\net6.0\MySerializer.pdb
+D:\OOP\MyTodoist\MySerializer\obj\Debug\net6.0\ref\MySerializer.dll
