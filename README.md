@@ -1,70 +1,12 @@
-
-
-This project is a task management system that allows users to create projects, include tasks in them, receive reminders, and generate reports on completed tasks.
-
-The main functional system includes:
-
-Creating projects with a given name and description
-Adding tasks to projects with a name, description, and start and end dates
-Setting reminders for tasks with the title, description, date and time, and status (active or inactive)
-Search for tasks in a project by name and start and end dates
-Exporting a list of project tasks or all projects to a CSV file
-Deleting projects and tasks from the list
-Calculation of a large number of completed tasks in a project
-Exporting a report on completed project tasks to a CSV or PDF file
-Thus, the task management system provides an opportunity to easily organize and perform tasks within various projects, as well as receive reports on the work performed.
-
-
-
-
-Here you can see that the User class interacts with the Project, TaskManager and Reminder classes through the CreateProject, AssignTask, GetTaskList methods, etc. The Project class interacts with the TaskManager class through the addTask, RemoveTask, GetTaskList methods, etc. The TaskManager class interacts with the Project, Report and Task classes through the addProject, RemoveProject, GetProjects, FindTasks, ExportCSV methods, ExportAllCSV, etc. The Reminder class interacts with the Task class through the methods setTitle, SetDescription, SetDateTime and setStatus. The Report class interacts with the Project and Task classes via the CalculateTotalCompletedTasks, ExportCSV, and ExportPDF methods.
-
-
-
-
-
-
-
-Class User:
-
-CreateProject(name: string, description: string): creates a new project with the specified name and description and adds it to the user's project list.
-AssignTask(projectName: string, task: Task): adds a task to a project with the specified name.
-GetTaskList(projectName: string): returns a list of tasks in the project with the specified name.
-
-class Project:
-
-AddTask(task: Task): adds a task to the project's task list.
-RemoveTask(task: Task): Removes a task from the project's task list.
-GetTaskList(): Returns a list of tasks in the project.
-GetProject(): Returns information about the project (name and description).
-
-class TaskManager:
-
-AddProject(project: Project): adds a project to the list of projects.
-RemoveProject(project: Project): Removes a project from the list of projects.
-GetProjects(): returns a list of projects.
-FindTasks(projectName: string, startDate: DateTime, endDate: DateTime): returns a list of tasks in the project with the specified name and in the specified date range.
-ExportCSV(projectName: string): exports the list of project tasks to a CSV file.
-ExportAllCSV(): Exports the task lists of all projects to a CSV file.
-
-Class Reminder:
-
-SetTitle(title: string): sets the reminder title.
-SetDescription(description: string): sets the reminder description.
-SetDateTime(dateTime: DateTime): sets the date and time of the reminder.
-setStatus(status: bool): Sets the status (active or inactive) of the reminder.
-
-class Report:
-
-CalculateCompletedTasks(projectName: string): calculates the total number of completed tasks in a project with a given name.
-ExportCSV(projectName: string): exports a report on completed project tasks to a CSV file.
-ExportPDF(projectName: string): exports a report on completed project tasks to a PDF file.
-
-class Task :
-
-getName(): returns the name of the task.
-getDescription(): returns a description of the task.
-GetStartDate(): Returns the start date of the task.
-GetEndDate(): Returns the completion date of the task.
-GetStatus(): returns the status of the task (completed or not).
-
+During the development of the application for time management, the following goals were achieved:
+A software tool based on an object–oriented programming paradigm was developed, which allows you to effectively manage tasks and projects.
+OOP principles such as encapsulation, abstraction, SOLID principles (Single Responsibility Principle, Open/Closed Principle) are applied, which provides flexibility, code reuse and ease of project support.
+Programming patterns such as MVVM (Model– View– ViewModel) and Singleton are used to separate logic and representation, as well as to guarantee the existence of only one instance of the Controller class.
+Further prospects for modification and development of the project:
+Integration with other platforms: Development of versions of the application for various operating systems (Android, iOS) and integration with popular platforms and services for task management (for example, Google Tasks, Trello). This will expand the user base and improve the availability of the application.
+ Improving the user interface: Further improving the design and interactivity of the user interface to improve the usability of the application and attract more users.
+Application Usage examples:
+Personal Task Management: The application can be used to plan and organize personal affairs and tasks. The user will be able to create a list of tasks, set deadlines, assign priorities and track progress.
+Project Management in a team: The application can be a useful tool for teamwork on projects. Team members can create and assign tasks, track progress status, and share information within the application.
+Academic Goals and Academic Projects: Students and researchers can use the app to plan and manage their academic assignments, projects and deadlines. This will help them to organize their time effectively and achieve their goals.
+The developed time management software is a useful tool for organizing and managing tasks and projects. Further development and improvement of the project will expand its functionality, attract more users and increase their productivity in time and task management.
