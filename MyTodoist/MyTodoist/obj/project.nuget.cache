@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DnKcPKpwSVlEkg0eJvCrkIK10NZr3x3iLUO6/OdFYW7v0aO8uYg1koMEjFGhQIXG/J0uqmSnqMgHhrAdfhRWCw==",
+  "dgSpecHash": "Idb+bWFA+jrUQM6OH74yhwsTzUAJ6E5Wr2I7KVUNHlb2IJlhJ3B8u4AELUoT/ufRtXESGW0YAegcnlflJhCQDg==",
   "success": true,
   "projectFilePath": "D:\\OOP\\MyTodoist\\MyTodoist\\MyTodoist.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\litedb\\5.0.16\\litedb.5.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

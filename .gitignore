@@ -1,0 +1,7 @@
+*.vs
+MyTodoist/MyTodoist/bin
+MyTodoist/MyTodoist/obj
+MyTodoist/MyClassLib/bin
+MyTodoist/MyClassLib/obj
+MyTodoist/MySerializer/bin
+MyTodoist/MySerializer/obj

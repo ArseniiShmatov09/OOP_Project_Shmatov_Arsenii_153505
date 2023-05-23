@@ -386,7 +386,7 @@ namespace MyClassLib.Main
 
         }
 
-        public void ShowComletedTasks(string projectName = "Others")
+        public void ShowCompletedTasks(string projectName = "Others")
         {
             try
             {
@@ -430,7 +430,7 @@ namespace MyClassLib.Main
 
         }
 
-        public void GetNotify(string taskName, string projectName = "Others")
+        public string GetNotify(string taskName, string projectName = "Others")
         {
             try
             {
@@ -441,8 +441,7 @@ namespace MyClassLib.Main
                         Models.Task? item = container.FindTask(taskName, projectName);
                         if (item != null)
                         {
-
-                            notify.GetNotify(item);
+                             return  notify.GetNotify(item);
                         }
                         else throw new Exception();
 
@@ -452,7 +451,6 @@ namespace MyClassLib.Main
                     {
                         Console.WriteLine("Ошибка! Не удалось найти данную задачу");
                     }
-
                 }
                 else throw new Exception();
             }
@@ -460,6 +458,8 @@ namespace MyClassLib.Main
             {
                 Console.WriteLine("Ошибка! Не удалось найти данный проект");
             }
+            return "";
+
         }
 
         public void SortByName(string projectName = "Others")

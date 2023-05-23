@@ -18,3 +18,4 @@ D:\OOP\MyTodoist\MyTodoist\obj\Debug\net6.0\MyTodoist.genruntimeconfig.cache
 D:\OOP\MyTodoist\MyTodoist\obj\Debug\net6.0\ref\MyTodoist.dll
 D:\OOP\MyTodoist\MyTodoist\bin\Debug\net6.0\MySerializer.dll
 D:\OOP\MyTodoist\MyTodoist\bin\Debug\net6.0\MySerializer.pdb
+D:\OOP\MyTodoist\MyTodoist\bin\Debug\net6.0\LiteDB.dll

@@ -9,9 +9,9 @@ namespace MyClassLib.Editors
 {
     public class Notify
     {
-        public void GetNotify(Models.Task task)
+        public string GetNotify(Models.Task task)
         {
-            Console.WriteLine($"До конца срока выполнения задачи {task.Name} осталось {task.DateTime.Subtract(DateTime.Now)}");
+           return ($"Until the end of the task '{task.Name}' is left {task.DateTime.Subtract(DateTime.Now)}");
         }
     }
 }

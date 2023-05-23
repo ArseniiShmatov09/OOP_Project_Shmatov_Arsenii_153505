@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XqNoz9GLF6haTSu6m746McNPqINZUMluO0vikkvAb9jgdvAwCyXZZrb3xQMk5ARideZL2h5qvBE13Sd0thJJBQ==",
+  "success": true,
+  "projectFilePath": "D:\\OOP\\MyTodoist\\InterFace\\Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\litedb\\5.0.16\\litedb.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
